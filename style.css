@@ -29,7 +29,7 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   
   /* Esto es clave: para que lo que metas dentro se comporte bien */
-  padding: 20mm 14mm ; /* Tus márgenes de InDesign aquí */
+  padding: 20mm 12mm ; /* Tus márgenes de InDesign aquí */
   box-sizing: border-box;
   position: relative;
   overflow: hidden; /* Para que nada se salga de la "hoja" */
@@ -75,7 +75,7 @@ main {
   align-items: baseline;
   gap: 12px;
   margin-bottom: 10pt;
-  margin-top: 25pt;
+  margin-top: 15pt;
 }
 
 .section-title hr {
@@ -105,7 +105,7 @@ ul {
 
 .abstract {
     color: var(--main-color);
-    margin-top: 30pt;
+    margin-top: 20pt;
     line-height: 0.95rem;
 }
 
