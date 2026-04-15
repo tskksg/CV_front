@@ -1,0 +1,151 @@
+{
+  "abstract": {
+    "es": "Frontend Developer con más de 5 años de experiencia construyendo aplicaciones web con React y TypeScript, incluyendo trabajo con Next.js. Fuerte background en QA automation y optimización de performance, aportando un enfoque detallista para construir interfaces confiables y escalables. Experiencia trabajando con APIs, datos en tiempo real y arquitecturas frontend modernas en entornos ágiles.",
+    "en": "Frontend Developer with 5+ years of experience building web applications using React and TypeScript, including work with Next.js. Strong background in QA automation and performance optimization, bringing a detail-oriented approach to building reliable and scalable UIs. Experienced working with APIs, real-time data, and modern frontend architectures in agile environments."
+  },
+
+  "experience": [
+    {
+      "year": "2026",
+      "title": "FrontEnd Developer",
+      "company": "Real Time",
+      "summary": {
+        "es": "Construcción de aplicaciones en React/Next.js enfocadas en autenticación segura, integración de APIs y UIs con datos intensivos.",
+        "en": "Building production React/Next.js applications focused on secure authentication, API integration, and data-intensive UIs."
+      },
+      "highlights": {
+        "es": [
+          "Construí aplicaciones en producción con React/Next.js enfocadas en performance, escalabilidad y experiencia de usuario",
+          "Lideré el desarrollo de features de extremo a extremo desde Figma hasta producción, definiendo la arquitectura frontend",
+          "Implementé flujos de autenticación SSO usando Keycloak",
+          "Construí dashboards interactivos con visualizaciones complejas manejando datos en tiempo real de alto volumen",
+          "Integré y optimicé múltiples APIs externas"
+        ],
+        "en": [
+          "Built production React/Next.js applications focused on performance, scalability, and user experience",
+          "Led end-to-end feature development from Figma to production, defining frontend architecture",
+          "Implemented SSO authentication flows using Keycloak",
+          "Built interactive data dashboards with complex visualizations handling high-volume real-time data",
+          "Integrated and optimized multiple external APIs"
+        ]
+      }
+    },
+
+    {
+      "year": "2025",
+      "title": "WebUI Developer",
+      "company": "Globant − [For MetLife]",
+      "summary": {
+        "es": "Mejora de performance y colaboración en una base de código React existente.",
+        "en": "Joined an existing React codebase mid-cycle, improving performance, API handling, and cross-team collaboration."
+      },
+      "highlights": {
+        "es": [
+          "Optimicé el rendimiento de formularios usando React Hook Form, reduciendo re-renders y mejorando la UX en pantallas con muchos datos",
+          "Gestioné estado del servidor y comunicación con APIs usando React Query, mejorando la consistencia de datos en la aplicación",
+          "Introduje un formato estructurado de reportes de bugs adoptado por el equipo, mejorando la comunicación Dev–QA y reduciendo ida y vuelta en la resolución de issues"
+        ],
+        "en": [
+          "Optimized form performance using React Hook Form, reducing re-renders and improving UX on data-heavy screens",
+          "Managed server state and API communication with React Query, improving data consistency across the application",
+          "Introduced a structured bug-reporting format adopted by the team, significantly improving Dev–QA communication and reducing back-and-forth on issue resolution"
+        ]
+      }
+    },
+
+    {
+      "year": "2021-2024",
+      "title": "Test Automation Engineer",
+      "company": "Globant − [For Disney]",
+      "summary": {
+        "es": "Ingreso a proyecto desde etapas tempranas como único QA automation, asegurando calidad mediante automatización de testing y expansión de cobertura.",
+        "en": "Joined a new project from its early stage as the sole QA automation engineer, ensuring high-quality standards through test automation strategy and coverage expansion."
+      },
+      "highlights": {
+        "es": [
+          "Ingeniero QA automation único — expandí y mantuve suites E2E usando un framework basado en WebdriverIO, Selenium y Cucumber (BDD)",
+          "Migré la base de automatización de JavaScript a TypeScript, mejorando mantenibilidad y tipado",
+          "Formé y entrené a un reemplazo asegurando una transición sin interrupciones en el pipeline de automatización"
+        ],
+        "en": [
+          "Sole QA automation engineer — expanded and maintained E2E test suites using a custom framework based on WebdriverIO, Selenium, and Cucumber (BDD)",
+          "Migrated the automation codebase from JavaScript to TypeScript, improving maintainability and type safety",
+          "Onboarded and fully trained a successor, ensuring a smooth handoff with no disruption to the automation pipeline"
+        ]
+      }
+    },
+
+    {
+      "year": "2021",
+      "title": "Java Developer (Trainee)",
+      "company": "Accenture",
+      "highlights": {
+        "es": [
+          "Implementación de lógica backend usando Java y programación orientada a objetos",
+          "Desarrollo de APIs REST"
+        ],
+        "en": [
+          "Implemented backend logic using Java and OOP principles",
+          "Developed REST APIs"
+        ]
+      }
+    },
+    {
+      "year": "2016",
+      "title":  "Editorial Designer Intern",
+      "company": "ABB Chile",
+      "highlights": {
+        "es": [
+          "Diseñé y traduje el catálogo de productos de la empresa, equilibrando precisión técnica con claridad visual."
+        ],
+        "en": [
+          "Designed and translated the company's product catalog, balancing technical accuracy with visual clarity."
+        ]
+      }
+    },
+    {
+      "year": "2013",
+      "title": "Web Designer Intern",
+      "company": "Rinostro S.A.",
+      "highlights": {
+        "es": [
+          "Diseñé layouts web y material promocional (afiches, tarjetas de presentación) manteniendo consistencia de marca."
+        ],
+        "en": [
+          "Designed web layouts and promotional materials (posters, business cards) maintaining brand consistency."
+        ]
+      }
+    }
+  ],
+
+  "initiatives": [
+    {
+      "title": {
+        "es": "Instructora voluntaria",
+        "en": "Volunteer instructor"
+      },
+      "details": "Chicas Programadoras",
+      "description": {
+        "es": ["Enseñé HTML, CSS y JavaScript a niñas de 12 a 17 años, guiándolas en la creación de páginas web simples.", "Promoví la inclusión de mujeres en tecnología mientras desarrollaba habilidades de mentoría y comunicación."],
+        "en": ["Taught HTML, CSS, and JavaScript to girls aged 12–17, guiding them in building simple web pages.", "Promoted inclusion of women in tech while developing mentorship and communication skills."]
+      }
+    },
+    {
+      "title": {
+        "en": "Audiovisual",
+        "es": "Audiovisual"
+      },
+      "details": "Photography & Video",
+      "description": {
+        "es": [
+          "Fotografía artística enfocada en cosplay y performances en vivo",
+          "Edición de video y creación de contenido visual con énfasis en storytelling y composición."
+        ],
+        "en": [
+          "Artistic photography focused on cosplay and live performances",
+          "Video editing and visual content creation with emphasis on storytelling and composition."
+        ]
+      }
+    }
+  ]
+}

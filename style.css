@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 :root {
-  /* Medidas estándar de una hoja Carta (Letter) en mm */
   --width-carta: 215.9mm;
   --height-carta: 279.4mm;
   --main-color: rgb(161, 161, 161);
-  --title-color: rgb(86,77,150);  
+  --title-color: rgb(86, 77, 150);
 }
 
 body {
-  background-color: #f0f0f0; /* Fondo gris para resaltar la "hoja" */
+  background-color: #f0f0f0;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -22,52 +21,77 @@ body {
   line-height: 1.05rem;
 }
 
+.lang-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  background: white;
+  color: var(--title-color);
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  font-size: 10pt;
+
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  z-index: 999;
+}
+
+.lang-btn:hover {
+  background: #f5f5f5;
+}
+
 .page {
   background: white;
   width: var(--width-carta);
   height: var(--height-carta);
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  
-  /* Esto es clave: para que lo que metas dentro se comporte bien */
-  padding: 20mm 12mm ; /* Tus márgenes de InDesign aquí */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 18mm 12mm;
   box-sizing: border-box;
   position: relative;
-  overflow: hidden; /* Para que nada se salga de la "hoja" */
+  overflow: hidden;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
 }
 
 main {
-    display: grid;
+  display: grid;
 }
 
 .main-name {
-    background-color: var(--title-color);
-    color: white;
-    display: inline-block;
-    padding: 6pt 4pt;
-    font-style: normal;
-    font-size: 21pt;
-    letter-spacing: 0.5pt;    
+  background-color: var(--title-color);
+  color: white;
+  display: inline-block;
+  padding: 6pt 4pt;
+  font-style: normal;
+  font-size: 21pt;
+  letter-spacing: 0.5pt;
 }
 
 .main-presentation {
-    color: var(--title-color);
-    font-style: italic;
-    font-weight: 800;
-    font-size: 12.6pt;
-    margin-top: 2pt;
+  color: var(--title-color);
+  font-style: italic;
+  font-weight: 800;
+  font-size: 12.6pt;
+  margin-top: 2pt;
 }
 
 .contact {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .contact svg {
-    margin-right: 3pt;
+  margin-right: 3pt;
 }
 
 .contact-info {
-    margin-right:6pt;
-    color: var(--main-color);
+  margin-right: 6pt;
+  color: var(--main-color);
 }
 
 .section-title {
@@ -87,26 +111,26 @@ main {
 }
 
 .contact {
-    color: var(--title-color);
+  color: var(--title-color);
 }
 
 .companies {
-    margin-bottom: 8pt;
+  margin-bottom: 8pt;
 }
 
 ul {
-    list-style: none inside;
-    color: var(--main-color);
+  list-style: none inside;
+  color: var(--main-color);
 }
 
 .right-column {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
-.abstract {
-    color: var(--main-color);
-    margin-top: 20pt;
-    line-height: 0.95rem;
+#abstract {
+  color: var(--title-color);
+  margin-top: 20pt;
+  line-height: 0.95rem;
 }
 
 li {
@@ -124,77 +148,80 @@ li::before {
   transform: translateY(-50%);
 }
 
-h1{
-    color: var(--title-color);
-    font-size: 14pt;
-    font-weight: 300;
-    font-style: italic;
-    display: inline-block;
+h1 {
+  color: var(--title-color);
+  font-size: 14pt;
+  font-weight: 300;
+  font-style: italic;
+  display: inline-block;
 }
 
 .dates {
-    color: var(--title-color);
-    font-weight: 200;
-    font-style: italic;
-    font-size: 0.9rem;
+  color: var(--title-color);
+  font-weight: 200;
+  font-style: italic;
+  font-size: 0.9rem;
 }
 
 .details {
-    color: var(--main-color);
-    font-weight: 300;
-    font-style: italic;
-    font-size: 0.9rem;
+  color: var(--main-color);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.9rem;
 }
 
 .education h2 {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 h2 {
-    color: var(--title-color);
-    font-weight: 400;
-    font-size: 12pt;
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 12pt;
 }
 
 h3 {
-    color: var(--title-color);
-    font-weight: 400;
-    margin: 5pt auto;
+  color: var(--title-color);
+  font-weight: 400;
+  margin: 5pt auto;
 }
 
 h3 .details {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .skills-detail {
-    color: var(--title-color);
-    margin-bottom: 7pt;
+  color: var(--title-color);
+  margin-bottom: 7pt;
 }
 
-.right-column ::before{
-    left:0;
+.right-column ::before {
+  left: 0;
 }
 
-.right-column li{
-    padding-left: 0.3rem;
-    color: black;
-    font-weight: 200;
-    margin-bottom: 2pt;
+.right-column li {
+  padding-left: 0.3rem;
+  color: black;
+  font-weight: 200;
+  margin-bottom: 2pt;
 }
-.right-column ul{
-    margin-bottom: 10pt;
+.right-column ul {
+  margin-bottom: 10pt;
 }
 
-
-/* Para cuando le des a Ctrl+P (Imprimir) */
 @media print {
-  body { background: none; padding: 0; }
+  body {
+    background: none;
+    padding: 0;
+  }
   .page {
     box-shadow: none;
     margin: 0;
     width: 100%;
     height: 100%;
   }
+
+  .lang-btn {
+    display: none;
+  }
 }
-
-
