@@ -118,6 +118,10 @@ main {
   margin-bottom: 8pt;
 }
 
+.companies h2 {
+  margin-bottom: 3.5pt;
+}
+
 ul {
   list-style: none inside;
   color: var(--main-color);

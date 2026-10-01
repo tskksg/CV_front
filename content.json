@@ -1,32 +1,28 @@
 {
   "abstract": {
-    "es": "Software Engineer con foco en Frontend con más de 5 años de experiencia desarrollando aplicaciones web con React, TypeScript y Next.js. Experiencia diseñando soluciones frontend escalables, integrando APIs REST y trabajando con datos en tiempo real en entornos ágiles. Respaldado por un sólido background en QA Automation, aporto un enfoque orientado a la calidad, habilidades de debugging y una comprensión integral del ciclo de desarrollo de software.",
-    "en": "Software Engineer (Frontend Focus) with 5+ years of experience building web applications using React, TypeScript, and Next.js. Experienced in designing scalable frontend solutions, integrating REST APIs, and working with real-time data in agile environments. Backed by a strong QA automation background, I bring a quality-driven mindset, solid debugging skills, and a deep understanding of end-to-end software development."
+    "es": "Software Engineer con más de 5 años de experiencia desarrollando aplicaciones web de alto impacto, combinando una sólida especialización en Frontend (React, TypeScript, Next.js) con desarrollo e integración backend (Node.js, Java/Kotlin, APIs REST). Mi background en Diseño Gráfico me aporta una alta sensibilidad para la experiencia de usuario y sistemas de diseño, mientras que mi experiencia en QA Automation en proyectos enterprise (Disney, MetLife) asegura código robusto, bien testeado y mantenible de extremo a extremo.",
+    "en": "Software Engineer with 5+ years of experience building high-impact web applications, bridging strong Frontend expertise (React, TypeScript, Next.js) with backend development and integrations (Node.js, Java/Kotlin, REST APIs). My Graphic Design background brings strong UI/UX sensibility, while my QA Automation experience on enterprise projects (Disney, MetLife) ensures robust, well-tested, and maintainable end-to-end code."
   },
 
   "experience": [
     {
       "year": "2026",
-      "title": "FrontEnd Developer",
-      "company": "Real Time",
-      "summary": {
-        "es": "Construcción de aplicaciones en React/Next.js enfocadas en autenticación segura, integración de APIs y UIs con datos intensivos.",
-        "en": "Building production React/Next.js applications focused on secure authentication, API integration, and data-intensive UIs."
-      },
+      "title": "FrontEnd / BackEnd Developer",
+      "company": "Real-Time",
       "highlights": {
         "es": [
-          "Construí aplicaciones en producción con React/Next.js enfocadas en performance, escalabilidad y experiencia de usuario",
-          "Lideré el desarrollo de features de extremo a extremo desde Figma hasta producción, definiendo la arquitectura frontend",
-          "Implementé flujos de autenticación SSO usando Keycloak",
-          "Construí dashboards interactivos con visualizaciones complejas manejando datos en tiempo real de alto volumen",
-          "Integré y optimicé múltiples APIs externas"
+          "Mantenimiento y adaptación de endpoints y lógica backend en servicios desarrollados en Kotlin (JVM) para integración de APIs",
+          "Diseño y configuración de la estructura de roles, permisos y jerarquía de usuarios (RBAC) en Keycloak, asegurando la validación en código",
+          "Implementación de capa de transformación y normalización de datos en Node.js/Next.js para procesar payloads de APIs y conexión a bases de datos",
+          "Auditoría técnica y verificación de flujos de prueba y certificación para transacciones 3DS (3D Secure) sobre plataforma FIME",
+          "Construcción de dashboards interactivos con React/Next.js para monitoreo de operaciones críticas con datos en tiempo real"
         ],
         "en": [
-          "Built production React/Next.js applications focused on performance, scalability, and user experience",
-          "Led end-to-end feature development from Figma to production, defining frontend architecture",
-          "Implemented SSO authentication flows using Keycloak",
-          "Built interactive data dashboards with complex visualizations handling high-volume real-time data",
-          "Integrated and optimized multiple external APIs"
+          "Maintained and adapted backend logic and endpoints in Kotlin (JVM) services for API integrations",
+          "Designed and configured user hierarchies, roles, and permissions (RBAC) in Keycloak, enforcing access validation in code",
+          "Implemented a data transformation and normalization layer in Node.js/Next.js to handle API payloads and database connectivity",
+          "Audited and verified technical test and certification flows for 3DS (3D Secure) transactions on the FIME platform",
+          "Built interactive React/Next.js dashboards for monitoring critical operations with real-time data"
         ]
       }
     },
@@ -35,20 +31,16 @@
       "year": "2025",
       "title": "WebUI Developer",
       "company": "Globant − [For MetLife]",
-      "summary": {
-        "es": "Mejora de performance y colaboración en una base de código React existente.",
-        "en": "Joined an existing React codebase mid-cycle, improving performance, API handling, and cross-team collaboration."
-      },
       "highlights": {
         "es": [
-          "Optimicé el rendimiento de formularios usando React Hook Form, reduciendo re-renders y mejorando la UX en pantallas con muchos datos",
-          "Gestioné estado del servidor y comunicación con APIs usando React Query, mejorando la consistencia de datos en la aplicación",
-          "Introduje un formato estructurado de reportes de bugs adoptado por el equipo, mejorando la comunicación Dev–QA y reduciendo ida y vuelta en la resolución de issues"
+          "Optimicé el rendimiento de formularios complejos usando React Hook Form, reduciendo re-renders en pantallas con alta carga de datos",
+          "Gestioné estado del servidor y comunicación eficiente con APIs REST mediante React Query, garantizando consistencia de datos",
+          "Introduje estándares de reporte técnico adoptados por el equipo, mejorando la colaboración Dev–QA y reduciendo tiempos de resolución de issues"
         ],
         "en": [
-          "Optimized form performance using React Hook Form, reducing re-renders and improving UX on data-heavy screens",
-          "Managed server state and API communication with React Query, improving data consistency across the application",
-          "Introduced a structured bug-reporting format adopted by the team, significantly improving Dev–QA communication and reducing back-and-forth on issue resolution"
+          "Optimized complex form performance using React Hook Form, reducing re-renders on data-heavy screens",
+          "Managed server state and efficient REST API communication using React Query, ensuring data consistency",
+          "Introduced structured technical reporting standards adopted by the team, improving Dev–QA collaboration and issue resolution times"
         ]
       }
     },
@@ -57,42 +49,38 @@
       "year": "2021-2024",
       "title": "Test Automation Engineer",
       "company": "Globant − [For Disney]",
-      "summary": {
-        "es": "Ingreso a proyecto desde etapas tempranas como único QA automation, asegurando calidad mediante automatización de testing y expansión de cobertura.",
-        "en": "Joined a new project from its early stage as the sole QA automation engineer, ensuring high-quality standards through test automation strategy and coverage expansion."
-      },
       "highlights": {
         "es": [
-          "Ingeniero QA automation único — expandí y mantuve suites E2E usando un framework basado en WebdriverIO, Selenium y Cucumber (BDD)",
-          "Migré la base de automatización de JavaScript a TypeScript, mejorando mantenibilidad y tipado",
-          "Formé y entrené a un reemplazo asegurando una transición sin interrupciones en el pipeline de automatización"
+          "Ingeniera QA automation única: lideré la estrategia de calidad y expandí suites de pruebas E2E y de integración para la plataforma de Disney usando WebdriverIO, Selenium y Cucumber (BDD)",
+          "Migré el framework de automatización de JavaScript a TypeScript, mejorando tipado, robustez y mantenibilidad del código",
+          "Capacité y entrené a un reemplazo técnico, asegurando una transición fluida y sin interrupciones en los pipelines de calidad"
         ],
         "en": [
-          "Sole QA automation engineer — expanded and maintained E2E test suites using a custom framework based on WebdriverIO, Selenium, and Cucumber (BDD)",
-          "Migrated the automation codebase from JavaScript to TypeScript, improving maintainability and type safety",
-          "Onboarded and fully trained a successor, ensuring a smooth handoff with no disruption to the automation pipeline"
+          "Sole QA automation engineer: led quality strategy and expanded E2E and integration test suites for Disney's platform using WebdriverIO, Selenium, and Cucumber (BDD)",
+          "Migrated the automation framework from JavaScript to TypeScript, improving code typing, robustness, and maintainability",
+          "Onboarded and trained a successor, ensuring a seamless handoff with zero disruption to quality pipelines"
         ]
       }
     },
 
     {
       "year": "2021",
-      "title": "Java Developer (Trainee)",
+      "title": "Java Developer",
       "company": "Accenture",
       "highlights": {
         "es": [
-          "Implementación de lógica backend usando Java y programación orientada a objetos",
-          "Desarrollo de APIs REST"
+          "Implementación de lógica de negocio y APIs REST utilizando Java y Programación Orientada a Objetos (POO)",
+          "Diseño de consultas y persistencia en bases de datos relacionales (SQL)"
         ],
         "en": [
-          "Implemented backend logic using Java and OOP principles",
-          "Developed REST APIs"
+          "Implemented business logic and REST APIs using Java and Object-Oriented Programming (OOP) principles",
+          "Designed queries and persistence in relational databases (SQL)"
         ]
       }
     },
     {
       "year": "2016",
-      "title":  "Editorial Designer Intern",
+      "title": "Editorial Designer Intern",
       "company": "ABB Chile",
       "highlights": {
         "es": [
@@ -109,10 +97,10 @@
       "company": "Rinostro S.A.",
       "highlights": {
         "es": [
-          "Diseñé layouts web y material promocional (afiches, tarjetas de presentación) manteniendo consistencia de marca."
+          "Diseñé layouts web y material promocional manteniendo consistencia de marca y diseño visual."
         ],
         "en": [
-          "Designed web layouts and promotional materials (posters, business cards) maintaining brand consistency."
+          "Designed web layouts and promotional materials maintaining brand consistency and visual design."
         ]
       }
     }
@@ -126,8 +114,14 @@
       },
       "details": "Chicas Programadoras",
       "description": {
-        "es": ["Enseñé HTML, CSS y JavaScript a niñas de 12 a 17 años, guiándolas en la creación de páginas web simples.", "Promoví la inclusión de mujeres en tecnología mientras desarrollaba habilidades de mentoría y comunicación."],
-        "en": ["Taught HTML, CSS, and JavaScript to girls aged 12–17, guiding them in building simple web pages.", "Promoted inclusion of women in tech while developing mentorship and communication skills."]
+        "es": [
+          "Enseñé HTML, CSS y JavaScript a niñas de 12 a 17 años, guiándolas en la creación de páginas web simples.",
+          "Promoví la inclusión de mujeres en tecnología mientras desarrollaba habilidades de mentoría y comunicación."
+        ],
+        "en": [
+          "Taught HTML, CSS, and JavaScript to girls aged 12–17, guiding them in building simple web pages.",
+          "Promoted inclusion of women in tech while developing mentorship and communication skills."
+        ]
       }
     },
     {
